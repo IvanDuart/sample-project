@@ -11,7 +11,9 @@ pipeline {
                 }
             }
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                sh 'mvn -B -DskipTests install'
+                sh 'mvn -B -DskipTests clean package'
+                sh 'docker build -t $JOB_NAME .'
             }
         }
     }
