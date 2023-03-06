@@ -1,3 +1,5 @@
+env.DOCKER_HOST = 'tcp://192.168.1.5:2375'
+
 pipeline {
     agent any
     stages {
