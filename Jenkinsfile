@@ -41,6 +41,7 @@ pipeline {
                         attachLog: true,
                         compressLog: true
                     )
+                    }
                 }
             }
         }
