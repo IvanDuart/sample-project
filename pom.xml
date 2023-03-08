@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.grupogimeno</groupId>
 	<artifactId>sample-project</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>sample-project</name>
 	<description>Inventario Giditek</description>
 	<properties>
