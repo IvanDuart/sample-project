@@ -30,7 +30,7 @@ public class hostService extends QueryService<HostModel>{
         Specification<HostModel> specification = Specification.where (null);
         if (criteria != null ){
             if(criteria.getHost () != null ){
-                specification = specification.and(buildStringSpecification(criteria.getHost(), HostModel_.host))
+                specification = specification.and(buildStringSpecification(criteria.getHost(), HostModel_.host));
             }
         }
         return specification;
